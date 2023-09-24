@@ -6,9 +6,9 @@ The problem is about finding a path for navigation of robot to reach destination
 
 ## Q-2: successor Function
 <ul><li>For the given problem, we can represent it as a path-finding problem in a grid with obstacles. We are allowed to move in all the directions (even diagonally). So, the problem will be having it’s starting node at (4,0) and the goal node is (4,9). For this, we evaluate successor function.</li><li>The successor function having starting node as (1,5) [here (4,0)] is:</li></ul>
-<img title="image-1" alt="Successor function-1" url="file:///C:/Users/busav/Desktop/SEM-5/AI/Coding%20portion/Assignment/images/TreeDiagram2.png" width="100"><ul><li>
+<img title="image-1" alt="Successor function-1" src="/images/TreeDiagram2.png" width="100"><ul><li>
 The successor function having starting node as (3,4) will also explore available paths even though it is a point on obstacle. That is, it will consider it as a valid successor because it is on the edge. However, if there was a point in obstacle such that there are no accessible points across it, then it won’t explore the paths further.</li><li>The successor function for starting node (3,4) [here (3,2)]is:</li></ul>
-<img title="image-2" alt="Successor function-2" url="file:///C:/Users/busav/Desktop/SEM-5/AI/Coding%20portion/Assignment/images/TreeDiagram2.png" width="100">
+<img title="image-2" alt="Successor function-2" src="/images/TreeDiagram2.png" width="100">
 
 
 ## Q-4: Will Hill Climbing always find Solution?
